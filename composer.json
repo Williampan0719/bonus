@@ -1,0 +1,49 @@
+{
+    "name": "SDaiShu-tp5",
+    "description": " base on ThinkPhp5 framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "license": "mit",
+    "authors": [
+        {
+            "name": "DongMing.Cui",
+            "email": "xcode4@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "aliyuncs/oss-sdk-php": "^2.2",
+        "topthink/framework": "5.0.14",
+        "phpoffice/phpspreadsheet": "^1.1",
+        "php-ffmpeg/php-ffmpeg": "^0.11.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application",
+            "extend\\": "extend",
+            "database\\": "database"
+        }
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

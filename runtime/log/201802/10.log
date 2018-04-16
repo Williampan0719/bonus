@@ -1,0 +1,1038 @@
+---------------------------------------------------------------
+[ 2018-02-10T13:25:20+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge
+[ info ] localhost:90/index.php/backend/order/recharge [运行时间：0.228485s][吞吐率：4.38req/s] [内存消耗：13,039.91kb] [文件加载：77]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '4b53ceeb-4353-4841-ae37-c9ae644cb427',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069847s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.028248s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:25:39+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge
+[ info ] localhost:90/index.php/backend/order/recharge [运行时间：0.211404s][吞吐率：4.73req/s] [内存消耗：13,075.08kb] [文件加载：78]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'c2c5cf41-786e-4db4-b43d-94571056bfff',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053898s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.031113s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'class' in 'where clause'[/Users/panhao/workspace/wechat-game-api/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-02-10T13:33:35+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge
+[ info ] localhost:90/index.php/backend/order/recharge [运行时间：0.259283s][吞吐率：3.86req/s] [内存消耗：13,041.56kb] [文件加载：77]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '5ee57c90-685b-43f5-9c95-597589123c22',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.097781s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.032516s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:33:44+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge
+[ info ] localhost:90/index.php/backend/order/recharge [运行时间：0.559309s][吞吐率：1.79req/s] [内存消耗：13,099.58kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '2aaaea28-17c1-49d3-9133-bd016c9f0ed9',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060470s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.030244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.030164s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.029276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.037929s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181669912912813' LIMIT 1 [ RunTime:0.031669s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562805572855' LIMIT 1 [ RunTime:0.029293s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562199664402' LIMIT 1 [ RunTime:0.035738s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560923414251' LIMIT 1 [ RunTime:0.029496s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560671963245' LIMIT 1 [ RunTime:0.030702s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181559891758240' LIMIT 1 [ RunTime:0.030312s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181552311539150' LIMIT 1 [ RunTime:0.031277s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546221983327' LIMIT 1 [ RunTime:0.038146s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546116730255' LIMIT 1 [ RunTime:0.034735s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181545788794297' LIMIT 1 [ RunTime:0.034880s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:39:44+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge
+[ info ] localhost:90/index.php/backend/order/recharge [运行时间：0.577314s][吞吐率：1.73req/s] [内存消耗：13,099.97kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '3154c230-0c8b-43e2-b9c1-bf0f189b8dda',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140329s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.025777s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.026741s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.030361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.025637s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181669912912813' LIMIT 1 [ RunTime:0.029911s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562805572855' LIMIT 1 [ RunTime:0.032820s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562199664402' LIMIT 1 [ RunTime:0.024983s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560923414251' LIMIT 1 [ RunTime:0.026564s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560671963245' LIMIT 1 [ RunTime:0.026484s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181559891758240' LIMIT 1 [ RunTime:0.026786s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181552311539150' LIMIT 1 [ RunTime:0.022884s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546221983327' LIMIT 1 [ RunTime:0.023854s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546116730255' LIMIT 1 [ RunTime:0.026076s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181545788794297' LIMIT 1 [ RunTime:0.023986s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:40:18+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge
+[ info ] localhost:90/index.php/backend/order/recharge [运行时间：0.659037s][吞吐率：1.52req/s] [内存消耗：13,099.97kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'df20c047-691c-4f34-8f54-f6221ad3e154',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051598s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.035097s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.032876s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.034478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.038303s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181669912912813' LIMIT 1 [ RunTime:0.035492s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562805572855' LIMIT 1 [ RunTime:0.037051s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562199664402' LIMIT 1 [ RunTime:0.040501s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560923414251' LIMIT 1 [ RunTime:0.032592s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560671963245' LIMIT 1 [ RunTime:0.038827s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181559891758240' LIMIT 1 [ RunTime:0.037158s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181552311539150' LIMIT 1 [ RunTime:0.035596s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546221983327' LIMIT 1 [ RunTime:0.053691s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546116730255' LIMIT 1 [ RunTime:0.034515s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181545788794297' LIMIT 1 [ RunTime:0.041979s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:41:25+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge
+[ info ] localhost:90/index.php/backend/order/recharge [运行时间：0.486669s][吞吐率：2.05req/s] [内存消耗：13,104.05kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'aba5086d-7e00-4230-9ea3-a14d07c85b9c',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055682s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.026041s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.029415s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.026813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.022300s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181669912912813' LIMIT 1 [ RunTime:0.022894s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562805572855' LIMIT 1 [ RunTime:0.022681s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181562199664402' LIMIT 1 [ RunTime:0.027018s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560923414251' LIMIT 1 [ RunTime:0.023204s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181560671963245' LIMIT 1 [ RunTime:0.026936s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181559891758240' LIMIT 1 [ RunTime:0.022682s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181552311539150' LIMIT 1 [ RunTime:0.030535s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546221983327' LIMIT 1 [ RunTime:0.049394s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546116730255' LIMIT 1 [ RunTime:0.038427s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181545788794297' LIMIT 1 [ RunTime:0.023746s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:50:11+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge?page=1&size=1
+[ info ] localhost:90/index.php/backend/order/recharge?page=1&size=1 [运行时间：0.312488s][吞吐率：3.20req/s] [内存消耗：13,100.71kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'eb210d7f-97f3-4d46-a532-e87f31f40131',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100011s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.031813s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.032262s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,1 [ RunTime:0.032151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.030956s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181669912912813' LIMIT 1 [ RunTime:0.044020s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:55:45+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge?page=1&size=1
+[ info ] localhost:90/index.php/backend/order/recharge?page=1&size=1 [运行时间：0.419056s][吞吐率：2.39req/s] [内存消耗：13,108.57kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'c35e9fdb-1c0d-4f81-8e32-cbdce055643a',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.096550s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.044540s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.035860s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,1 [ RunTime:0.030947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.030460s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.032072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.037153s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181669912912813' LIMIT 1 [ RunTime:0.031063s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:58:26+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge?page=1&size=1
+[ info ] localhost:90/index.php/backend/order/recharge?page=1&size=1 [运行时间：0.384735s][吞吐率：2.60req/s] [内存消耗：13,109.57kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '8e88e431-af90-4909-b8e1-d3171afc3545',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053278s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.033785s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `wx_money` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.030379s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `wx_money` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,1 [ RunTime:0.034155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.031153s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jZ6J-IUayjqZ7xEhcE4ev4') [ RunTime:0.029731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.036398s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546116730255' LIMIT 1 [ RunTime:0.029005s ]
+---------------------------------------------------------------
+[ 2018-02-10T13:58:34+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge?page=1&size=10
+[ info ] localhost:90/index.php/backend/order/recharge?page=1&size=10 [运行时间：0.573539s][吞吐率：1.74req/s] [内存消耗：13,115.58kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '8630b674-d84a-4b75-bda9-cdfcd10a6706',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067180s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.023051s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `wx_money` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.022439s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `wx_money` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.029695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.023575s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jZ6J-IUayjqZ7xEhcE4ev4','ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.025131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.024874s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546116730255' LIMIT 1 [ RunTime:0.027129s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181008528914255' LIMIT 1 [ RunTime:0.032765s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180865368683816' LIMIT 1 [ RunTime:0.025274s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180859559475762' LIMIT 1 [ RunTime:0.025168s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180736578567141' LIMIT 1 [ RunTime:0.025348s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180674915526872' LIMIT 1 [ RunTime:0.028624s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180608126134940' LIMIT 1 [ RunTime:0.026671s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180606468339641' LIMIT 1 [ RunTime:0.022577s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180590346418853' LIMIT 1 [ RunTime:0.034282s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180573348403888' LIMIT 1 [ RunTime:0.027497s ]
+---------------------------------------------------------------
+[ 2018-02-10T15:29:03+08:00 ] 0.0.0.0 GET /index.php/backend/order/recharge?page=1&size=10
+[ info ] localhost:90/index.php/backend/order/recharge?page=1&size=10 [运行时间：0.905883s][吞吐率：1.10req/s] [内存消耗：13,116.20kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderRecharge',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'f517b8b4-38c5-45e8-a2cf-d4abfbb98220',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderRecharge[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103900s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.038785s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `wx_money` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.045871s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` > 0  AND `wx_money` > 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.035982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.045631s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jZ6J-IUayjqZ7xEhcE4ev4','ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.038968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.038563s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181546116730255' LIMIT 1 [ RunTime:0.044179s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181008528914255' LIMIT 1 [ RunTime:0.096579s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180865368683816' LIMIT 1 [ RunTime:0.035890s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180859559475762' LIMIT 1 [ RunTime:0.038199s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180736578567141' LIMIT 1 [ RunTime:0.032352s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180674915526872' LIMIT 1 [ RunTime:0.039427s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180608126134940' LIMIT 1 [ RunTime:0.041661s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180606468339641' LIMIT 1 [ RunTime:0.041743s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180590346418853' LIMIT 1 [ RunTime:0.037069s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'AO15180573348403888' LIMIT 1 [ RunTime:0.038413s ]
+---------------------------------------------------------------
+[ 2018-02-10T19:40:50+08:00 ] 0.0.0.0 GET /index.php/backend/order/withdraw?page=1&size=10
+[ info ] localhost:90/index.php/backend/order/withdraw?page=1&size=10 [运行时间：0.228452s][吞吐率：4.38req/s] [内存消耗：13,096.44kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderWithdraw',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '28ee07b5-2c32-4276-ab79-ff03ab585769',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderWithdraw[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071082s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.024507s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` = 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.025650s ]
+---------------------------------------------------------------
+[ 2018-02-10T19:44:52+08:00 ] 0.0.0.0 GET /index.php/backend/order/withdraw?page=1&size=10
+[ info ] localhost:90/index.php/backend/order/withdraw?page=1&size=10 [运行时间：0.431508s][吞吐率：2.32req/s] [内存消耗：13,125.83kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderWithdraw',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '7bac98d0-5f9b-4499-828b-8b04aeed2d5a',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderWithdraw[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055836s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.030165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` = 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 1 [ RunTime:0.031121s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` = 0  AND `finish_at` IS NOT NULL ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.037108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.033945s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.029675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.039006s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180616819436241' LIMIT 1 [ RunTime:0.033761s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180606017055057' LIMIT 1 [ RunTime:0.033476s ]
+---------------------------------------------------------------
+[ 2018-02-10T19:47:14+08:00 ] 0.0.0.0 GET /index.php/backend/order/withdraw?page=1&size=10
+[ info ] localhost:90/index.php/backend/order/withdraw?page=1&size=10 [运行时间：1.582281s][吞吐率：0.63req/s] [内存消耗：13,126.53kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderWithdraw',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '85ee7acb-bb94-4b5f-b778-bb836ed602be',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderWithdraw[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.088400s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.040490s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 1 [ RunTime:0.029678s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.035506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.033989s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.037245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.036159s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181014087094374' LIMIT 1 [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869344203360' LIMIT 1 [ RunTime:0.032252s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869336798351' LIMIT 1 [ RunTime:0.035066s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180616819436241' LIMIT 1 [ RunTime:0.033520s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180606017055057' LIMIT 1 [ RunTime:0.037841s ]
+---------------------------------------------------------------
+[ 2018-02-10T19:50:38+08:00 ] 0.0.0.0 GET /index.php/backend/order/withdraw?page=1&size=10
+[ info ] localhost:90/index.php/backend/order/withdraw?page=1&size=10 [运行时间：0.536401s][吞吐率：1.86req/s] [内存消耗：13,126.65kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderWithdraw',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '089441b1-10c2-4f7e-8c92-964936463148',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderWithdraw[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058913s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.047116s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 1 [ RunTime:0.037557s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.029715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.039032s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.035263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.047180s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181014087094374' LIMIT 1 [ RunTime:0.036202s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869344203360' LIMIT 1 [ RunTime:0.032625s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869336798351' LIMIT 1 [ RunTime:0.044942s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180616819436241' LIMIT 1 [ RunTime:0.033681s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180606017055057' LIMIT 1 [ RunTime:0.033968s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:07:34+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.328005s][吞吐率：3.05req/s] [内存消耗：13,133.59kb] [文件加载：79]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '269',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------491482758784199202320135',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '1741a2ea-9be6-46dc-b403-9616cb092dbd',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '11',
+  'coin' => '8000',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.151898s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wechat_game_test.wx_system_config_virtual' doesn't exist[/Users/panhao/workspace/wechat-game-api/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-02-10T23:08:38+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.282142s][吞吐率：3.54req/s] [内存消耗：13,092.02kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '269',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------496633260828513326509992',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '2b50883f-10e7-4f12-bc50-956c905b6425',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '11',
+  'coin' => '8000',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062411s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.041720s ]
+[ sql ] [ SQL ] INSERT INTO `wx_system_config_virtual` (`money` , `coin`) VALUES (11 , 8000) [ RunTime:0.040903s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:08:59+08:00 ] 0.0.0.0 POST /index.php/backend/game/edit-virtual
+[ info ] localhost:90/index.php/backend/game/edit-virtual [运行时间：0.221870s][吞吐率：4.51req/s] [内存消耗：13,155.34kb] [文件加载：78]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'editVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '371',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------358009086636397535569341',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'e93cde6a-4cdd-4966-905c-2dc2a8e07f96',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '11',
+  'coin' => '8000',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->editVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064964s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.054081s ]
+[ sql ] [ SQL ] UPDATE `wx_system_config_virtual`  SET `money`=11,`coin`=8000  WHERE  `id` = 1 [ RunTime:0.040417s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:09:04+08:00 ] 0.0.0.0 POST /index.php/backend/game/edit-virtual
+[ info ] localhost:90/index.php/backend/game/edit-virtual [运行时间：0.177397s][吞吐率：5.64req/s] [内存消耗：13,155.34kb] [文件加载：78]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'editVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '371',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------622303366686178240009040',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'c11b092e-71c9-438a-aa94-e36f4fef8cc6',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '11',
+  'coin' => '8001',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->editVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056045s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.035430s ]
+[ sql ] [ SQL ] UPDATE `wx_system_config_virtual`  SET `money`=11,`coin`=8001  WHERE  `id` = 1 [ RunTime:0.039888s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:09:25+08:00 ] 0.0.0.0 GET /index.php/backend/game/del-virtual?id=1
+[ info ] localhost:90/index.php/backend/game/del-virtual?id=1 [运行时间：0.184058s][吞吐率：5.43req/s] [内存消耗：13,151.29kb] [文件加载：78]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'delVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '9be16791-8252-4a0c-8633-519898a1bbb0',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->delVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070164s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.032936s ]
+[ sql ] [ SQL ] DELETE FROM `wx_system_config_virtual`    WHERE  `id` = 1 [ RunTime:0.032541s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:09:55+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.174166s][吞吐率：5.74req/s] [内存消耗：13,092.02kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '267',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------861657011807809550510739',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'c56bd871-8ffc-43a7-a743-3c82a7e0f64e',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '1',
+  'coin' => '100',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051587s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.031832s ]
+[ sql ] [ SQL ] INSERT INTO `wx_system_config_virtual` (`money` , `coin`) VALUES (1 , 100) [ RunTime:0.032602s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:10:02+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.183303s][吞吐率：5.46req/s] [内存消耗：13,092.02kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '267',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------545978439804385828932312',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'af6a1754-16b9-4658-b5dc-11f84851c687',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '5',
+  'coin' => '500',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061466s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.051048s ]
+[ sql ] [ SQL ] INSERT INTO `wx_system_config_virtual` (`money` , `coin`) VALUES (5 , 500) [ RunTime:0.035234s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:10:10+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.180642s][吞吐率：5.54req/s] [内存消耗：13,092.02kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '269',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------545555160904231283697406',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '365e0ce1-bacb-4511-b5c2-1fcd1d84f606',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '10',
+  'coin' => '1000',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059644s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.035888s ]
+[ sql ] [ SQL ] INSERT INTO `wx_system_config_virtual` (`money` , `coin`) VALUES (10 , 1000) [ RunTime:0.035331s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:10:19+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.176345s][吞吐率：5.67req/s] [内存消耗：13,092.02kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '269',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------789817010283992015192904',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'c6e4710c-e7db-4e17-9724-005cfb9f645f',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '20',
+  'coin' => '2000',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055975s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.055748s ]
+[ sql ] [ SQL ] INSERT INTO `wx_system_config_virtual` (`money` , `coin`) VALUES (20 , 2000) [ RunTime:0.032270s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:10:25+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.160658s][吞吐率：6.22req/s] [内存消耗：13,092.02kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '269',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------109066051387586454815562',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '4cf0ba1b-385e-4ad0-9ba3-35c31eacfcab',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '50',
+  'coin' => '5000',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055417s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.039675s ]
+[ sql ] [ SQL ] INSERT INTO `wx_system_config_virtual` (`money` , `coin`) VALUES (50 , 5000) [ RunTime:0.032545s ]
+---------------------------------------------------------------
+[ 2018-02-10T23:10:34+08:00 ] 0.0.0.0 POST /index.php/backend/game/add-virtual
+[ info ] localhost:90/index.php/backend/game/add-virtual [运行时间：0.164758s][吞吐率：6.07req/s] [内存消耗：13,092.02kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Game',
+    2 => 'addVirtualConfig',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'content-length' => '271',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------295689007883488041777336',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '6f78a116-d151-4d3a-9c07-411dd59bc9f3',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'money' => '100',
+  'coin' => '10000',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Game->addVirtualConfig[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Game.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050898s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_system_config_virtual` [ RunTime:0.029638s ]
+[ sql ] [ SQL ] INSERT INTO `wx_system_config_virtual` (`money` , `coin`) VALUES (100 , 10000) [ RunTime:0.035833s ]

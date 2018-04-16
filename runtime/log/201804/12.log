@@ -1,0 +1,261 @@
+---------------------------------------------------------------
+[ 2018-04-12T17:24:15+08:00 ] 0.0.0.0 GET /index.php/test/Pan/test
+[ info ] localhost:89/index.php/test/Pan/test [运行时间：0.076690s][吞吐率：13.04req/s] [内存消耗：12,176.94kb] [文件加载：58]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Pan',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '37f09585-954f-4860-aa8d-bd73223436b1',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Pan->test[ /Users/panhao/workspace/wechat-game-api/application/test/controller/Pan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-12T17:24:23+08:00 ] 0.0.0.0 GET /index.php/test/Pan/test
+[ info ] localhost:89/index.php/test/Pan/test [运行时间：0.341158s][吞吐率：2.93req/s] [内存消耗：12,341.73kb] [文件加载：61]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Pan',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '83f6c4df-fa68-4ce9-95d5-438d563cec07',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Pan->test[ /Users/panhao/workspace/wechat-game-api/application/test/controller/Pan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-12T17:24:50+08:00 ] 0.0.0.0 GET /index.php/test/Pan/test
+[ info ] localhost:89/index.php/test/Pan/test [运行时间：0.310662s][吞吐率：3.22req/s] [内存消耗：12,341.73kb] [文件加载：61]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Pan',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'ffc40a26-a698-4df3-b185-cd4d63016ffc',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Pan->test[ /Users/panhao/workspace/wechat-game-api/application/test/controller/Pan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-12T21:20:57+08:00 ] 0.0.0.0 GET /index.php/test/Pan/test
+[ info ] localhost:89/index.php/test/Pan/test [运行时间：0.511050s][吞吐率：1.96req/s] [内存消耗：12,341.73kb] [文件加载：61]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Pan',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'cf5dbf49-dabb-4025-9e6f-f2f172566c7a',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Pan->test[ /Users/panhao/workspace/wechat-game-api/application/test/controller/Pan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-12T21:22:15+08:00 ] 0.0.0.0 GET /index.php/backend/Abouns/test
+[ info ] localhost:89/index.php/backend/Abouns/test [运行时间：0.042467s][吞吐率：23.55req/s] [内存消耗：11,805.54kb] [文件加载：53]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abouns',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '134d26e3-86ad-4ced-9284-fc43244cee5b',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-12T21:22:23+08:00 ] 0.0.0.0 GET /index.php/backend/Abonus/test
+[ info ] localhost:89/index.php/backend/Abonus/test [运行时间：0.032230s][吞吐率：31.03req/s] [内存消耗：11,868.44kb] [文件加载：53]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abonus',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '77aeb8ec-b763-4cc1-8d39-8ae74b9c51ae',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot use think\Request as Request because the name is already in use[/Users/panhao/workspace/wechat-game-api/application/backend/controller/Abonus.php:15]
+---------------------------------------------------------------
+[ 2018-04-12T21:22:34+08:00 ] 0.0.0.0 GET /index.php/backend/Abonus/test
+[ info ] localhost:89/index.php/backend/Abonus/test [运行时间：0.533268s][吞吐率：1.88req/s] [内存消耗：13,736.05kb] [文件加载：85]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abonus',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '1b34d19a-8090-4e33-91e4-f4c4821caa10',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Abonus->test[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Abonus.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-12T21:27:26+08:00 ] 0.0.0.0 GET /index.php/test/Pan/test
+[ info ] localhost:89/index.php/test/Pan/test [运行时间：0.360621s][吞吐率：2.77req/s] [内存消耗：12,341.73kb] [文件加载：61]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Pan',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'e9212d31-6f99-4a19-8f56-970cbb7c3975',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Pan->test[ /Users/panhao/workspace/wechat-game-api/application/test/controller/Pan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-12T21:27:46+08:00 ] 0.0.0.0 GET /index.php/test/Pan/test
+[ info ] localhost:89/index.php/test/Pan/test [运行时间：0.270299s][吞吐率：3.70req/s] [内存消耗：12,341.73kb] [文件加载：61]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Pan',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=8mdp0ijuum4n4lltfu4ujt7mhv',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '21cb3ac3-e7ab-4303-b15d-41d03353a2d1',
+  'token' => 'b714f8349c9905b3afabe687f5cd24aa193ae748',
+  'x-lantern-version' => '4.5.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Pan->test[ /Users/panhao/workspace/wechat-game-api/application/test/controller/Pan.php ]
+[ info ] [ LOG ] INIT File

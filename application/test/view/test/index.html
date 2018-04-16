@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<span></span><span id="te"></span>
+<script>
+        var wsServer = 'ws://127.0.0.1:9502';
+        var websocket = new WebSocket(wsServer);
+        websocket.onopen = function (evt) {
+            //console.log("Connected to WebSocket server.");
+            websocket.send(123);
+
+
+        };
+
+        websocket.onclose = function (evt) {
+           // console.log("Disconnected");
+            //websocket.close();
+        };
+
+        websocket.onmessage = function (evt) {
+            //console.log(evt.data);
+            document.getElementById('te').innerHTML=evt.data;
+            //websocket.send('asdasdasd');
+        };
+
+        websocket.onerror = function (evt, e) {
+            //console.log('Error occured: ' + evt.data);
+        };
+</script>
+</body>
+</html>

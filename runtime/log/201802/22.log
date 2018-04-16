@@ -1,0 +1,1509 @@
+---------------------------------------------------------------
+[ 2018-02-22T09:08:31+08:00 ] 0.0.0.0 GET /index.php/backend/withdraw/search-review
+[ info ] localhost:90/index.php/backend/withdraw/search-review [运行时间：0.108665s][吞吐率：9.20req/s] [内存消耗：13,123.81kb] [文件加载：71]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'withdraw',
+    2 => 'searchReviewRows',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'b1d13c14-807b-482d-b549-4be906aad2f2',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Withdraw->searchReviewRows[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Withdraw.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-22T09:08:53+08:00 ] 0.0.0.0 GET /index.php/backend/withdraw/search-review?page=1&size=10
+[ info ] localhost:90/index.php/backend/withdraw/search-review?page=1&size=10 [运行时间：0.325813s][吞吐率：3.07req/s] [内存消耗：13,266.70kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'withdraw',
+    2 => 'searchReviewRows',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '0f86f893-e999-46a4-85f9-a8a3f3c5f24d',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Withdraw->searchReviewRows[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Withdraw.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.081579s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_withdraw_review` [ RunTime:0.039630s ]
+[ sql ] [ SQL ] SELECT `id`,`uid`,`money`,`status`,`created_at`,`updated_at` FROM `wx_payment_withdraw_review` ORDER BY `updated_at` LIMIT 0,10 [ RunTime:0.036067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.039248s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jN7hgUaIrIkVC-fDhUX_SU','ocJN_4sSypPS4OipJWwn-iIq_0Sg') [ RunTime:0.038078s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_withdraw_review` LIMIT 1 [ RunTime:0.039648s ]
+---------------------------------------------------------------
+[ 2018-02-22T10:50:17+08:00 ] 0.0.0.0 GET /index.php/backend/order/withdraw
+[ info ] localhost:90/index.php/backend/order/withdraw [运行时间：0.713354s][吞吐率：1.40req/s] [内存消耗：13,159.37kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderWithdraw',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'f3ab5b0c-b433-49ce-84de-edf2456d43d3',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderWithdraw[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062097s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.039501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 1 [ RunTime:0.041522s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.038731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.039965s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.039970s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.040338s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15192656518187605' LIMIT 1 [ RunTime:0.040841s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15192656431424889' LIMIT 1 [ RunTime:0.046007s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181014087094374' LIMIT 1 [ RunTime:0.040518s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869344203360' LIMIT 1 [ RunTime:0.039892s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869336798351' LIMIT 1 [ RunTime:0.050978s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180616819436241' LIMIT 1 [ RunTime:0.049729s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180606017055057' LIMIT 1 [ RunTime:0.049427s ]
+---------------------------------------------------------------
+[ 2018-02-22T10:56:46+08:00 ] 0.0.0.0 GET /index.php/backend/order/withdraw
+[ info ] localhost:90/index.php/backend/order/withdraw [运行时间：1.142608s][吞吐率：0.88req/s] [内存消耗：13,159.37kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Order',
+    2 => 'orderWithdraw',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '2fc64025-844f-4b02-af33-3f45e2a23ee3',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Order->orderWithdraw[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100048s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_order` [ RunTime:0.047008s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 1 [ RunTime:0.045072s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_order` WHERE  `bonus_id` = 0 ORDER BY created_at desc LIMIT 0,10 [ RunTime:0.062529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.071146s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jN7hgUaIrIkVC-fDhUX_SU') [ RunTime:0.047237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_info` [ RunTime:0.061868s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15192656518187605' LIMIT 1 [ RunTime:0.080465s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15192656431424889' LIMIT 1 [ RunTime:0.083846s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15181014087094374' LIMIT 1 [ RunTime:0.083438s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869344203360' LIMIT 1 [ RunTime:0.075344s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180869336798351' LIMIT 1 [ RunTime:0.122224s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180616819436241' LIMIT 1 [ RunTime:0.087258s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bill_info` WHERE  `order_sn` = 'O15180606017055057' LIMIT 1 [ RunTime:0.080240s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:02:10+08:00 ] 0.0.0.0 GET /index.php/backend/user/list
+[ info ] localhost:90/index.php/backend/user/list [运行时间：0.341748s][吞吐率：2.93req/s] [内存消耗：13,142.79kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '8224a1ba-79d0-4723-8778-d28eaa69eb86',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138489s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.042875s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.041167s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.037574s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:07:51+08:00 ] 0.0.0.0 GET /index.php/backend/user/list
+[ info ] localhost:90/index.php/backend/user/list [运行时间：0.490043s][吞吐率：2.04req/s] [内存消耗：13,144.02kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '6efe3f9b-760a-4348-8d12-eb3ceba23dff',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.164302s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.077422s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.112863s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.048075s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:09:51+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?keyword=www
+[ info ] localhost:90/index.php/backend/user/list?keyword=www [运行时间：0.067831s][吞吐率：14.74req/s] [内存消耗：12,980.16kb] [文件加载：71]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '4f5447fc-aba5-4d0d-a9bb-3ff6189080de',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => 'www',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-22T11:13:58+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?keyword=www
+[ info ] localhost:90/index.php/backend/user/list?keyword=www [运行时间：0.063878s][吞吐率：15.65req/s] [内存消耗：12,980.16kb] [文件加载：71]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'db4c0212-98d8-47e3-82c3-c61e174b24c5',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => 'www',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-22T11:16:37+08:00 ] 0.0.0.0 GET /index.php/backend/abonus/search?name=%E6%88%91%E7%9A%84
+[ info ] localhost:90/index.php/backend/abonus/search?name=%E6%88%91%E7%9A%84 [运行时间：0.378178s][吞吐率：2.64req/s] [内存消耗：13,322.84kb] [文件加载：76]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abonus',
+    2 => 'searchRows',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'name' => '我的',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Abonus->searchRows[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Abonus.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.087056s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.047106s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `wx_user` WHERE  `nickname` = '我的' [ RunTime:0.039596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_abonus` [ RunTime:0.047756s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_abonus` WHERE  `uid` IN ('') LIMIT 0,10 [ RunTime:0.038603s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:17:15+08:00 ] 0.0.0.0 GET /index.php/backend/abonus/search?name=%E6%88%91%E7%9A%84
+[ info ] localhost:90/index.php/backend/abonus/search?name=%E6%88%91%E7%9A%84 [运行时间：0.253939s][吞吐率：3.94req/s] [内存消耗：13,322.84kb] [文件加载：76]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abonus',
+    2 => 'searchRows',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'name' => '我的',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Abonus->searchRows[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Abonus.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052026s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.032793s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `wx_user` WHERE  `nickname` = '我的' [ RunTime:0.040825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_abonus` [ RunTime:0.041990s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_abonus` WHERE  `uid` IN ('') LIMIT 0,10 [ RunTime:0.037034s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:17:28+08:00 ] 0.0.0.0 GET /index.php/backend/abonus/search?name=
+[ info ] localhost:90/index.php/backend/abonus/search?name= [运行时间：0.291477s][吞吐率：3.43req/s] [内存消耗：13,321.33kb] [文件加载：76]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abonus',
+    2 => 'searchRows',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '033a5885-d7f1-4907-b113-8b231741e437',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Abonus->searchRows[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Abonus.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058632s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_abonus` [ RunTime:0.049921s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_abonus` LIMIT 0,10 [ RunTime:0.045584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.042996s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4jZ6J-IUayjqZ7xEhcE4ev4','ocJN_4jN7hgUaIrIkVC-fDhUX_SU','ocJN_4lpB3EONwQILMd0LC8-fuOo') [ RunTime:0.041078s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:19:33+08:00 ] 0.0.0.0 GET /index.php/backend/abonus/search?name=%E6%88%91%E7%9A%84
+[ info ] localhost:90/index.php/backend/abonus/search?name=%E6%88%91%E7%9A%84 [运行时间：0.290388s][吞吐率：3.44req/s] [内存消耗：13,322.70kb] [文件加载：76]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abonus',
+    2 => 'searchRows',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '89d0c24d-7771-42f5-a68e-c2ee15ff0aec',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'name' => '我的',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Abonus->searchRows[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Abonus.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059359s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.044396s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `wx_user` WHERE  `nickname` = '我的' [ RunTime:0.035935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_abonus` [ RunTime:0.047883s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_abonus` WHERE  `uid` IN ('') LIMIT 0,10 [ RunTime:0.038493s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:19:50+08:00 ] 0.0.0.0 GET /index.php/backend/abonus/search?name=%E5%BC%A0%E7%BC%98
+[ info ] localhost:90/index.php/backend/abonus/search?name=%E5%BC%A0%E7%BC%98 [运行时间：0.358585s][吞吐率：2.79req/s] [内存消耗：13,319.42kb] [文件加载：76]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Abonus',
+    2 => 'searchRows',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'ca8f61a8-700c-4c50-9e4a-caf6f01b7525',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'name' => '张缘',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Abonus->searchRows[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Abonus.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063195s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.045048s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `wx_user` WHERE  `nickname` = '张缘' [ RunTime:0.042778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_abonus` [ RunTime:0.039529s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_abonus` WHERE  `uid` IN ('ocJN_4sSypPS4OipJWwn-iIq_0Sg') LIMIT 0,10 [ RunTime:0.047619s ]
+[ sql ] [ SQL ] SELECT `nickname`,`openid`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` IN ('ocJN_4sSypPS4OipJWwn-iIq_0Sg') [ RunTime:0.045001s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:20:33+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98
+[ info ] localhost:90/index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98 [运行时间：0.285720s][吞吐率：3.50req/s] [内存消耗：13,142.63kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '27fb33a4-5d39-4fe3-82f7-06e70a874959',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '张缘',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.078850s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.037896s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.042155s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` WHERE  `nickname` = '张缘' ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.063168s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:20:45+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98&gender=1
+[ info ] localhost:90/index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98&gender=1 [运行时间：0.239666s][吞吐率：4.17req/s] [内存消耗：13,142.70kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'fdf1030c-bbca-4a75-8fc1-827aac3b4b46',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '张缘',
+  'gender' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064202s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.038433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.035197s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` WHERE  `nickname` = '张缘' ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.038081s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:20:56+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98&sex=1
+[ info ] localhost:90/index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98&sex=1 [运行时间：0.228679s][吞吐率：4.37req/s] [内存消耗：13,142.29kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '2eabe529-2b35-4b1d-bcd1-efe5f5d22e08',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '张缘',
+  'sex' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059200s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.036399s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.040579s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` WHERE  `nickname` = '张缘'  AND `gender` = 1 ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.037539s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:25:40+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98&sex=1
+[ info ] localhost:90/index.php/backend/user/list?keyword=%E5%BC%A0%E7%BC%98&sex=1 [运行时间：0.305666s][吞吐率：3.27req/s] [内存消耗：13,143.84kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '6a650447-80f4-4a0e-a4e5-2e2ccded8609',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '张缘',
+  'sex' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.090393s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.049163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.040779s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` WHERE  `nickname` = '张缘'  AND `gender` = 1 ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.041003s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:25:56+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?start_time=2018-01-01
+[ info ] localhost:90/index.php/backend/user/list?start_time=2018-01-01 [运行时间：0.221093s][吞吐率：4.52req/s] [内存消耗：13,148.94kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '2a193d49-578f-4c9c-a794-9798e1c36ecf',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'start_time' => '2018-01-01',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062878s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.037729s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.038693s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` WHERE  `created_at` > '2018-01-01' ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.041979s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:26:24+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?start_time=2018-02-10
+[ info ] localhost:90/index.php/backend/user/list?start_time=2018-02-10 [运行时间：0.224806s][吞吐率：4.45req/s] [内存消耗：13,143.07kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '6f48df2f-fcb5-48a6-ab94-ca48c67ca558',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'start_time' => '2018-02-10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063541s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.040952s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1 [ RunTime:0.036872s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` WHERE  `created_at` > '2018-02-10' ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.035236s ]
+---------------------------------------------------------------
+[ 2018-02-22T11:26:47+08:00 ] 0.0.0.0 GET /index.php/backend/user/list?start_time=2018-02-10
+[ info ] localhost:90/index.php/backend/user/list?start_time=2018-02-10 [运行时间：0.217891s][吞吐率：4.59req/s] [内存消耗：13,143.24kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'User',
+    2 => 'userList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'e5dda985-4fec-4094-bfe8-a411bebc8354',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'start_time' => '2018-02-10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\User->userList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063894s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.039665s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_user` WHERE  `created_at` > '2018-02-10' LIMIT 1 [ RunTime:0.041699s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_user` WHERE  `created_at` > '2018-02-10' ORDER BY created_at desc LIMIT 0,15 [ RunTime:0.038553s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:26:10+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list
+[ info ] localhost:90/index.php/backend/bill/list [运行时间：0.340263s][吞吐率：2.94req/s] [内存消耗：13,117.89kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'fddf2bbf-ba49-4cf6-93e6-649311ef147b',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119871s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.043156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%%'  AND `b`.`type` <> 3 LIMIT 1 [ RunTime:0.041235s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%%'  AND `b`.`type` <> 3 LIMIT 0,15 [ RunTime:0.045908s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:27:09+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=��s
+[ info ] localhost:90/index.php/backend/bill/list?keyword=��s [运行时间：0.054646s][吞吐率：18.30req/s] [内存消耗：13,070.12kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '3b0996de-c279-4a27-a0d0-480a6e316b39',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '��s',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: param[/Users/panhao/workspace/wechat-game-api/application/backend/logic/BillLogLogic.php:63]
+---------------------------------------------------------------
+[ 2018-02-22T13:27:22+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=��s
+[ info ] localhost:90/index.php/backend/bill/list?keyword=��s [运行时间：0.092419s][吞吐率：10.82req/s] [内存消耗：13,067.63kb] [文件加载：73]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '88bb1cc1-5c60-44ee-922d-36c1d1b7e650',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '��s',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Malformed UTF-8 characters, possibly incorrectly encoded[/Users/panhao/workspace/wechat-game-api/thinkphp/library/think/response/Json.php:39]
+---------------------------------------------------------------
+[ 2018-02-22T13:27:41+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3 [运行时间：0.043654s][吞吐率：22.91req/s] [内存消耗：12,964.91kb] [文件加载：71]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '10a78b46-c9e4-4ac7-9020-f216c0cee3d9',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-22T13:28:19+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3 [运行时间：0.223550s][吞吐率：4.47req/s] [内存消耗：13,110.43kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '485aa222-e64f-4604-94c9-7c6a17cf703c',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.075623s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.055236s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 1 [ RunTime:0.047219s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:28:43+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3 [运行时间：0.203808s][吞吐率：4.91req/s] [内存消耗：13,117.98kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '3836b63e-b251-42d2-8f1f-50789ca0f33f',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052363s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.032792s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 1 [ RunTime:0.033329s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 0,15 [ RunTime:0.036205s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:29:14+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3 [运行时间：1.530405s][吞吐率：0.65req/s] [内存消耗：13,117.98kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '11c57b80-0f60-4510-8eeb-9688a771efd4',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.332375s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.042859s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 1 [ RunTime:0.041916s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 0,15 [ RunTime:0.061936s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:30:06+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2 [运行时间：0.263514s][吞吐率：3.79req/s] [内存消耗：13,118.05kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '6ed7584a-f126-4d5c-a10a-9e41eeffb281',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.075531s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.051460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 1 [ RunTime:0.048388s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 0,15 [ RunTime:0.048492s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:30:33+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10 [运行时间：0.207298s][吞吐率：4.82req/s] [内存消耗：13,117.98kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'eb13565d-c995-4765-b355-6af00d7430cd',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050657s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.031509s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 1 [ RunTime:0.030606s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3 LIMIT 0,10 [ RunTime:0.031965s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:30:46+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time [运行时间：0.188023s][吞吐率：5.32req/s] [内存消耗：13,111.21kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'eb2e621b-9ebc-4ca0-890e-0504d8c7f81f',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062631s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.037386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '' AND '' LIMIT 1 [ RunTime:0.037838s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:31:24+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time [运行时间：0.199348s][吞吐率：5.02req/s] [内存消耗：13,111.21kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '2758dc15-c114-4c08-baa0-bd5d87d529ea',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.074353s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.035269s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '' AND '' LIMIT 1 [ RunTime:0.040791s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:31:36+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time [运行时间：0.234925s][吞吐率：4.26req/s] [内存消耗：13,111.21kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '74b76a34-9736-4616-b0bd-0afdf4f4e572',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070950s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.053846s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '' AND '' LIMIT 1 [ RunTime:0.044315s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:32:57+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=&end_time [运行时间：0.254131s][吞吐率：3.93req/s] [内存消耗：13,120.05kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '381b1eb0-700e-4090-897b-416e7b523288',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077488s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.030723s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1970-01-01' AND '2018-02-22 13:32:57' LIMIT 1 [ RunTime:0.031849s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1970-01-01' AND '2018-02-22 13:32:57' LIMIT 0,10 [ RunTime:0.041319s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:34:15+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10 [运行时间：0.069318s][吞吐率：14.43req/s] [内存消耗：12,973.85kb] [文件加载：73]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '03f0b45c-2f0e-492b-91f9-f2162ba05a7b',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-22T13:34:21+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10 [运行时间：0.048245s][吞吐率：20.73req/s] [内存消耗：12,973.85kb] [文件加载：73]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '9fa4aae7-b4b8-454f-821d-1142b7b8fc89',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-22T13:34:40+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10 [运行时间：0.059527s][吞吐率：16.80req/s] [内存消耗：13,070.52kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '448df24c-ea61-4d87-9f55-5840920b2d12',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: start_time[/Users/panhao/workspace/wechat-game-api/application/backend/logic/BillLogLogic.php:61]
+---------------------------------------------------------------
+[ 2018-02-22T13:35:30+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10 [运行时间：0.278082s][吞吐率：3.60req/s] [内存消耗：13,119.86kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '90f91a8f-33a9-42f1-be6a-80d163712bc3',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060724s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.038543s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1970-01-01' AND '2018-02-22 13:35:30' LIMIT 1 [ RunTime:0.036530s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1970-01-01' AND '2018-02-22 13:35:30' LIMIT 0,10 [ RunTime:0.041778s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:44:13+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-09
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-09 [运行时间：0.219026s][吞吐率：4.57req/s] [内存消耗：13,112.53kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '87cc9c13-52b7-4273-864e-cb9311d9b3cc',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '2018-02-06',
+  'end_time' => '2018-02-09',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068705s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.032740s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1' AND '1' LIMIT 1 [ RunTime:0.032795s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:44:40+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-09
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-09 [运行时间：0.161238s][吞吐率：6.20req/s] [内存消耗：13,112.53kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'f6429930-5cc4-41db-83bc-6271280e5734',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '2018-02-06',
+  'end_time' => '2018-02-09',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052461s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.031245s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1' AND '1' LIMIT 1 [ RunTime:0.032939s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:44:44+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06 [运行时间：0.184795s][吞吐率：5.41req/s] [内存消耗：13,119.83kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '08264128-6350-4b6b-989b-cb6f403b110e',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '2018-02-06',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049176s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.034637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1' AND '2018-02-22 13:44:44' LIMIT 1 [ RunTime:0.033083s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '1' AND '2018-02-22 13:44:44' LIMIT 0,10 [ RunTime:0.031561s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:45:24+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-10 [运行时间：0.055848s][吞吐率：17.91req/s] [内存消耗：12,938.32kb] [文件加载：69]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '5fffd878-23c9-4000-817b-596e76d161a4',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '2018-02-06',
+  'end_time' => '2018-02-10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-22T13:46:35+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-06&end_time=2018-02-10 [运行时间：0.204481s][吞吐率：4.89req/s] [内存消耗：13,119.92kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '82ecfd4b-ce66-40f5-a215-2d8b59b65b34',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '2018-02-06',
+  'end_time' => '2018-02-10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053147s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.034931s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '2018-02-06' AND '2018-02-10' LIMIT 1 [ RunTime:0.037184s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`b`.`type`,`b`.`affect_money`,`b`.`balance_money`,`b`.`created_at`,`b`.`money_source` FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '2018-02-06' AND '2018-02-10' LIMIT 0,10 [ RunTime:0.036709s ]
+---------------------------------------------------------------
+[ 2018-02-22T13:46:43+08:00 ] 0.0.0.0 GET /index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-07&end_time=2018-02-10
+[ info ] localhost:90/index.php/backend/bill/list?keyword=%E7%AB%A5%E6%B3%BD%E5%B9%B3&pay_type=2&page=1&size=10&start_time=2018-02-07&end_time=2018-02-10 [运行时间：0.169936s][吞吐率：5.88req/s] [内存消耗：13,112.81kb] [文件加载：72]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'BillLog',
+    2 => 'billLogList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '349dafa5-4383-4583-8cec-c29e0192f6eb',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '童泽平',
+  'pay_type' => '2',
+  'page' => '1',
+  'size' => '10',
+  'start_time' => '2018-02-07',
+  'end_time' => '2018-02-10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\BillLog->billLogList[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/BillLog.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050002s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bill_log` [ RunTime:0.034060s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wx_payment_bill_log` `b` INNER JOIN `wx_user` `u` ON `u`.`openid`=`b`.`uid` WHERE  `u`.`nickname` LIKE '%童泽平%'  AND `b`.`type` <> 3  AND `b`.`created_at` BETWEEN '2018-02-07' AND '2018-02-10' LIMIT 1 [ RunTime:0.033997s ]

@@ -1,0 +1,130 @@
+---------------------------------------------------------------
+[ 2018-02-14T09:10:26+08:00 ] 0.0.0.0 GET /index.php/backend/bonus/detail?bonus_id=38
+[ info ] localhost:90/index.php/backend/bonus/detail?bonus_id=38 [运行时间：0.726218s][吞吐率：1.38req/s] [内存消耗：13,205.56kb] [文件加载：75]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Bonus',
+    2 => 'bonusDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'e44ecb6e-468a-4feb-8331-5c62e3e68c37',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'bonus_id' => '38',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Bonus->bonusDetail[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Bonus.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062047s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bonus_receive` [ RunTime:0.037926s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bonus_receive` WHERE  `bonus_id` = 38 [ RunTime:0.039530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bonus_detail` [ RunTime:0.044404s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_payment_bonus_detail` WHERE  `id` = 82  AND `is_use` = 1 LIMIT 1 [ RunTime:0.034073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_user` [ RunTime:0.037700s ]
+[ sql ] [ SQL ] SELECT `nickname`,`avatarulr`,`gender` FROM `wx_user` WHERE  `openid` = 'ocJN_4jN7hgUaIrIkVC-fDhUX_SU' LIMIT 1 [ RunTime:0.325784s ]
+---------------------------------------------------------------
+[ 2018-02-14T09:28:33+08:00 ] 0.0.0.0 GET /index.php/backend/bonus/del-remark?id=38
+[ info ] localhost:90/index.php/backend/bonus/del-remark?id=38 [运行时间：0.121189s][吞吐率：8.25req/s] [内存消耗：13,069.67kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Bonus',
+    2 => 'delAdvRemark',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => 'dd0cfa6b-aa06-4610-aec5-cd11568ec815',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Bonus->delAdvRemark[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Bonus.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-14T09:28:38+08:00 ] 0.0.0.0 GET /index.php/backend/bonus/del-remark?id=1
+[ info ] localhost:90/index.php/backend/bonus/del-remark?id=1 [运行时间：0.066624s][吞吐率：15.01req/s] [内存消耗：13,069.67kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Bonus',
+    2 => 'delAdvRemark',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '17fb5e43-a1ca-47ee-8a8e-7d38d71c6177',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Bonus->delAdvRemark[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Bonus.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-14T09:28:57+08:00 ] 0.0.0.0 GET /index.php/backend/bonus/del-remark?bonus_id=38
+[ info ] localhost:90/index.php/backend/bonus/del-remark?bonus_id=38 [运行时间：0.201005s][吞吐率：4.98req/s] [内存消耗：13,129.41kb] [文件加载：74]
+[ info ] [ LANG ] /Users/panhao/workspace/wechat-game-api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backend',
+    1 => 'Bonus',
+    2 => 'delAdvRemark',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'hash' => 'M3lw7I12KE8hmWvUXlQQkc/HpkEdiA2ZYXW7Ljvt3od7eXH34OjPx6rdXaXz02rI4taZD4YbSyt9McKHOpILQPN8wPHrBl+1VYHZZ7QAb0YlcTdU2aKiabX+O/zMd/9eCT4sJo4ylqfkXfazLUccbH9uny1qYR9h/3hoZoYmOqM=',
+  'postman-token' => '6489b6bb-fcfb-480b-9d4e-6954615b7db2',
+  'x-lantern-version' => '4.4.2',
+)
+[ info ] [ PARAM ] array (
+  'bonus_id' => '38',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\backend\controller\Bonus->delAdvRemark[ /Users/panhao/workspace/wechat-game-api/application/backend/controller/Bonus.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048478s ] mysql:host=rm-uf684r31g08zh100bo.mysql.rds.aliyuncs.com;dbname=wechat_game_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_payment_bonus_remark` [ RunTime:0.034298s ]
+[ sql ] [ SQL ] UPDATE `wx_payment_bonus_remark`  SET `text`='',`updated_at`='2018-02-14 09:28:57'  WHERE  `bonus_id` = 38 [ RunTime:0.037061s ]

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+module_name=${1}
+
+if [ ! ${module_name} ]; then
+    echo -e "----------------------------------------\nUsage : ./doc.sh [module_name] ";
+else
+    # apidoc -i application/user/controller/ -o public/docs/user
+    apidoc -i application/${module_name}/controller/ -o public/docs/${module_name}
+fi
